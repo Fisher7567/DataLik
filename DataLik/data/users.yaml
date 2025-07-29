@@ -1,0 +1,31 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@datalink.com
+      name: Administrator
+      password: $2b$12$gvmgYK.i2NfJhZ/7YJ1XgO8aIzGYZ5fZY9F7JQV3DgJ8jKNLxJ9m6  # admin123
+      role: Admin
+    manager:
+      email: manager@company.com
+      name: Business Manager
+      password: $2b$12$rJY9vY1UgN1H1K/5X8j6.uF2nXo3VwJgKxMo8TqR2Ij7ZJlK9O8r4  # manager123
+      role: Manager
+    analyst:
+      email: analyst@company.com
+      name: Data Analyst
+      password: $2b$12$tZ4fE8vL9mR2O6p7Y5j1XuK8nFo6VwJgPxTo5TqJ3Ij9ZLlM2O3r1  # analyst123
+      role: Analyst
+    demo:
+      email: demo@company.com
+      name: Demo User
+      password: $2b$12$uA5gK8yP0nS3O7q8Y6j2XvL9oGp7VwJgQyUp6TrK4Ij0ZMmN3O4r2  # demo123
+      role: User
+
+cookie:
+  name: datalink_auth
+  key: datalink_secret_key_123
+  expiry_days: 1
+
+preauthorized:
+  emails:
+    - admin@datalink.com

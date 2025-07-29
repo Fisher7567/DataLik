@@ -1,0 +1,68 @@
+Here is my PRP, help me build it
+**Product Name (working title):*DataLink*
+**Unidata** (or feel free to rename)
+
+**Idea (1-sentence description):**
+A data integration and analytics platform for African SMEs that unifies business data, enables real-time insights, and supports collaborative, company-wide decision-making.
+
+---
+
+**User Journey / Flow:**
+
+* User logs in via company SSO
+* Lands on a personalized dashboard with KPIs, charts, and recent activity
+* Receives alerts for key changes (e.g. sales drops, stock outs, customer trends)
+* Explores unified company data using intuitive, semantic models
+* Uploads files (CSV, Excel) and views data updates in real-time
+* Collaborates with teammates via comments, mentions, and shared reports
+
+---
+
+**Target Audience:**
+Small and medium-sized businesses in Africa.
+Key users include business owners, operations managers, sales leads, and analysts — anyone in the company should be able to access and work with data, regardless of technical skill.
+
+---
+
+**Core Features:**
+
+* SSO-based user accounts with role-based access control
+* Personalized dashboards with live KPIs and data views
+* Semantic layer builder (define entities like customers, orders, etc.)
+* Analytical engine for querying, charts, and metrics
+* File uploads (CSV, Excel) with data ingestion
+* Real-time updates across dashboards and alerts
+* Export to PDF, Excel, CSV
+* Collaborative features: comments, tagging, shared reports
+* Predictive modeling (trends, forecasts, anomalies)
+
+---
+
+**Suggested Tools / Stack:**
+
+* **Auth:** WorkOS or Auth0 for SSO
+* **Backend/Data:** Postgres or ClickHouse + Supabase or Hasura for APIs
+* **Semantic modeling:** Custom builder backed by a metadata layer
+* **Analytics:** Apache Arrow / DuckDB / Cube.js
+* **Realtime:** Websockets or Supabase Realtime
+* **Frontend:** React + Tailwind or similar
+* **AI modeling:** Python microservices or OpenAI API (optional in v1)
+
+---
+
+**Design Vibe:**
+Warm but enterprise-grade. Clean UI, intuitive layout, responsive interactions. Friendly enough for everyday use, but professional enough for leadership teams.
+
+---
+
+**Future Features:**
+
+* App integrations (WhatsApp, QuickBooks, CRMs, ERPs)
+* Mobile version
+* Natural language querying
+* Automated workflows or no-code automations
+* Compliance tooling (audit logs, permissions history)
+
+---
+
+Let me know if you'd like to tweak or expand any part of this — happy to help refine it further!
